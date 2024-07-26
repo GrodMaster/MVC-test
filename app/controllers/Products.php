@@ -1,7 +1,7 @@
 <?
 class Products
 {
-    use Controller
+    use Controller;
     public function index()
     {
         $this->view('products');
