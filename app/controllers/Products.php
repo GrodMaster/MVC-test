@@ -1,6 +1,7 @@
 <?
-class Products extends Controller
+class Products
 {
+    use Controller
     public function index()
     {
         $this->view('products');
